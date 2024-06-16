@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 60px; /* Initial width when not hovered */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidenav:hover {
+    width: 250px; /* Width when hovered */
+}
+
+.sidenav a {
+    padding: 16px 8px 16px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    background-color: #575757;
+}
+
+.sidenav .green {
+    background-color: #4CAF50;
+}
+
+.sidenav .blue {
+    background-color: #2196F3;
+}
+
+.sidenav .red {
+    background-color: #f44336;
+}
+
+.sidenav .black {
+    background-color: #555;
+}
+
+.main {
+    margin-left: 60px; 
+    padding: 16px;
+    transition: margin-left 0.5s;
+}
+
+.sidenav:hover ~ .main {
+    margin-left: 250px; 
+}

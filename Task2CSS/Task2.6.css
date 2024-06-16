@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-form img.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.login-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.login-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.login-form .form-group input[type="text"],
+.login-form .form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form .login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.login-form .login-btn:hover {
+    background-color: #45a049;
+}
+
+.login-form .form-group.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.login-form .form-group.remember-me input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.login-form .form-group .cancel-btn {
+    padding: 10px 20px;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.login-form .form-group .cancel-btn:hover {
+    background-color: #da190b;
+}
+
+.login-form .form-group .forgot-password {
+    float: right;
+}
+
+.login-form .form-group .forgot-password a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.login-form .form-group .forgot-password a:hover {
+    text-decoration: underline;
+}
